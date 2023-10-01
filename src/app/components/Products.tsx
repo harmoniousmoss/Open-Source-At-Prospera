@@ -54,7 +54,7 @@ const product = [
 
 export default function Products() {
   return (
-    <div className="bg-white py-28 sm:py-36">
+    <div className="bg-white py-20 sm:py-28">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-cyan-500 sm:text-4xl">
