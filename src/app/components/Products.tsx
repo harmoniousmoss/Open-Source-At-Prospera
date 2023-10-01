@@ -45,10 +45,10 @@ const product = [
     link: "https://kit.svelte.dev/",
   },
   {
-    name: "React Native",
-    role: "Learn once, write anywhere",
-    imageUrl: "https://www.cdnlogo.com/logos/r/18/react-native.svg",
-    link: "https://reactnative.dev/",
+    name: "WordPress",
+    role: "Blog & publishing tool",
+    imageUrl: "https://www.cdnlogo.com/logos/w/58/wordpress.svg",
+    link: "https://wordpress.org/",
   },
 ];
 
