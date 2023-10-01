@@ -45,10 +45,10 @@ const product = [
     link: "https://kit.svelte.dev/",
   },
   {
-    name: "Typescript",
-    role: "JavaScript with syntax for types",
-    imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
-    link: "https://www.typescriptlang.org/",
+    name: "React Native",
+    role: "Learn once, write anywhere",
+    imageUrl: "https://www.cdnlogo.com/logos/r/18/react-native.svg",
+    link: "https://reactnative.dev/",
   },
 ];
 
