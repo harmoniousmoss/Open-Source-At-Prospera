@@ -1,17 +1,5 @@
 import Link from "next/link";
 
-const navigation = {
-  about: [
-    { name: "Outcomes", href: "#" },
-    { name: "News", href: "#" },
-  ],
-  learn: [{ name: "Prospera website", href: "#" }],
-  extra: [
-    { name: "Vacancy", href: "#" },
-    { name: "Tender", href: "#" },
-  ],
-};
-
 export default function Footer() {
   return (
     <footer className="bg-white" aria-labelledby="footer-heading">
@@ -27,7 +15,7 @@ export default function Footer() {
             <p className="text-sm leading-5 text-gray-700">
               <Link href="https://open-source-at-prospera.vercel.app/">
                 <span className="text-cyan-500 hover:text-amber-400">
-                  Open source at Prospera
+                  Powered by Open Source
                 </span>
               </Link>
             </p>

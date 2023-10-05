@@ -31,7 +31,7 @@ export default function Header() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link
-              href="/"
+              href="https://prospera.or.id"
               className="text-sm font-semibold leading-6 text-gray-900 hover:text-cyan-500"
             >
               Website <span aria-hidden="true">&rarr;</span>
@@ -103,8 +103,8 @@ export default function Header() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-700">
               Open source software is freely available to use, lovingly made by
-              people all over the world, and at the heart of Prospera&apos;s
-              digital products
+              people all over the world, and at the heart of our digital
+              products
             </p>
           </div>
         </div>

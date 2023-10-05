@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Portfolio from "./components/Portfolio";
 import Products from "./components/Products";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Header />
       <Products />
+      <Portfolio />
       <Footer />
     </>
   );
