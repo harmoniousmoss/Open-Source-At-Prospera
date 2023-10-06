@@ -1,7 +1,7 @@
 const product = [
   {
     name: "Macro Monitoring",
-    tool: "Next.js, Tailwind CSS, Apex.js, Laravel, PostgreSQL",
+    tool: "Next.js, Tailwind CSS, Laravel, PostgreSQL",
   },
   {
     name: "Childcare Microsite",
