@@ -1,56 +1,58 @@
-import { CheckIcon } from "@heroicons/react/20/solid";
-
-const features = [
+const product = [
   {
-    name: "Macro Monitor",
-    description: "Prospera's weekly macroeconomic monitoring",
-    madeWith: "Next.js, Apex.js, Tailwind CSS, Laravel, PostgreSQL",
+    name: "Macro Monitoring",
+    tool: "Next.js, Tailwind CSS, Apex.js, Laravel, PostgreSQL",
   },
   {
     name: "Childcare Microsite",
-    description: "Childcare resources from Prospera & partners",
-    madeWith: "Sveltekit, Tailwind CSS, Laravel, PostgreSQL",
+    tool: "SvelteKit, Tailwind CSS, Laravel, PostgreSQL`",
   },
   {
     name: "Newsletter One-page",
-    description: "Infographic & data visualization",
-    madeWith: "Sveltekit & Tailwind CSS",
+    tool: "SvelteKit, Tailwind CSS",
   },
   {
-    name: "Talents register",
-    description: "Prospera's talents register submission",
-    madeWith: "Next.js, Tailwind CSS, MongoDB, Express.js",
+    name: "Talent register",
+    tool: "Next.js, Tailwind CSS, MongoDB, Node.js",
+  },
+  {
+    name: "Operation manual",
+    tool: "SvelteKit, Tailwind CSS, Laravel, PostgreSQL",
+  },
+  {
+    name: "And many more...",
+    tool: "We can't wait to share",
   },
 ];
 
 export default function Portfolio() {
   return (
     <div className="bg-white py-16 sm:py-24">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <div>
-            <h2 className="text-3xl font-bold tracking-tight text-cyan-500 sm:text-4xl">
-              Powered by Open Source
-            </h2>
-          </div>
-          <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative pl-9">
-                <dt className="font-semibold text-cyan-500">
-                  <CheckIcon
-                    className="absolute left-0 top-1 h-5 w-5 text-gray-900"
-                    aria-hidden="true"
-                  />
-                  {feature.name}
-                </dt>
-                <dd className="mt-2">{feature.description}</dd>
-                <p className="text-sm font-semibold leading-6 text-gray-900">
-                  {feature.madeWith}
-                </p>
-              </div>
-            ))}
-          </dl>
+      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+        <div className="max-w-2xl">
+          <h2 className="text-3xl font-bold tracking-tight text-cyan-500 sm:text-4xl">
+            Powered by Open Source
+          </h2>
         </div>
+        <ul
+          role="list"
+          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
+        >
+          {product.map((product) => (
+            <li key={product.name}>
+              <div className="flex items-center gap-x-6 cursor-pointer hover:text-cyan-400">
+                <div>
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-cyan-500">
+                    {product.name}
+                  </h3>
+                  <p className="text-sm font-semibold leading-6 text-gray-900">
+                    {product.tool}
+                  </p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

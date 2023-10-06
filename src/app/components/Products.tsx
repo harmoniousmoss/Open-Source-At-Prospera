@@ -38,6 +38,18 @@ const product = [
     imageUrl: "https://www.cdnlogo.com/logos/m/30/mongodb-icon.svg",
     link: "https://www.mongodb.com/",
   },
+  {
+    name: "SvelteKit",
+    role: "Web development, streamlined",
+    imageUrl: "https://www.cdnlogo.com/logos/s/6/svelte.svg",
+    link: "https://kit.svelte.dev/",
+  },
+  {
+    name: "Typescript",
+    role: "Superset of JavaScript",
+    imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
+    link: "https://www.typescriptlang.org/",
+  },
 ];
 
 export default function Products() {
