@@ -5,7 +5,7 @@ const product = [
   },
   {
     name: "Childcare Microsite",
-    tool: "SvelteKit, Tailwind CSS, Laravel, PostgreSQL`",
+    tool: "SvelteKit, Tailwind CSS, Laravel, PostgreSQL",
   },
   {
     name: "Newsletter One-page",
