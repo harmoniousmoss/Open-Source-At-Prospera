@@ -15,6 +15,12 @@ const product = [
     link: "https://tailwindcss.com/",
   },
   {
+    name: "Bootstrap",
+    role: "Build fast, responsive sites",
+    imageUrl: "https://www.cdnlogo.com/logos/b/50/bootstrap.svg",
+    link: "https://getbootstrap.com/",
+  },
+  {
     name: "Laravel",
     role: "The PHP framework for web artisans",
     imageUrl: "https://www.cdnlogo.com/logos/l/23/laravel.svg",
