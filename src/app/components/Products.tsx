@@ -27,28 +27,22 @@ const product = [
     link: "https://www.postgresql.org/",
   },
   {
-    name: "Node.js",
-    role: "JavaScript runtime environment",
-    imageUrl: "https://www.cdnlogo.com/logos/n/94/nodejs-icon.svg",
-    link: "https://nodejs.org/en",
-  },
-  {
     name: "MongoDB",
     role: "Document database",
     imageUrl: "https://www.cdnlogo.com/logos/m/30/mongodb-icon.svg",
     link: "https://www.mongodb.com/",
   },
   {
+    name: "Express",
+    role: "Flexible Node.js web framework",
+    imageUrl: "/expressjs_logo.png",
+    link: "https://tauri.app/",
+  },
+  {
     name: "SvelteKit",
     role: "Web development, streamlined",
     imageUrl: "https://www.cdnlogo.com/logos/s/6/svelte.svg",
     link: "https://kit.svelte.dev/",
-  },
-  {
-    name: "TypeScript",
-    role: "JavaScript with syntax for types",
-    imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
-    link: "https://www.typescriptlang.org/",
   },
   {
     name: "Tauri",
