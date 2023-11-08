@@ -34,10 +34,7 @@ export default function Portfolio() {
             Powered by Open Source
           </h2>
         </div>
-        <ul
-          role="list"
-          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
-        >
+        <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           {product.map((product) => (
             <li key={product.name}>
               <div className="flex items-center gap-x-6 cursor-pointer hover:text-cyan-400">

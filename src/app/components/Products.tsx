@@ -50,6 +50,12 @@ const product = [
     imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
     link: "https://www.typescriptlang.org/",
   },
+  {
+    name: "Tauri",
+    role: "Multi-platform deployment",
+    imageUrl: "/tauri.png",
+    link: "https://tauri.app/",
+  },
 ];
 
 export default function Products() {
@@ -65,10 +71,7 @@ export default function Products() {
             digital products.
           </p>
         </div>
-        <ul
-          role="list"
-          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
-        >
+        <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           {product.map((product) => (
             <li key={product.name}>
               <Link href={product.link}>
