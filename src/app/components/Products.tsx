@@ -27,18 +27,6 @@ const product = [
     link: "https://www.postgresql.org/",
   },
   {
-    name: "TypeScript",
-    role: "JavaScript with syntax for types",
-    imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
-    link: "https://www.typescriptlang.org/",
-  },
-  {
-    name: "Node.js",
-    role: "JavaScript runtime environment",
-    imageUrl: "https://www.cdnlogo.com/logos/n/94/nodejs-icon.svg",
-    link: "https://nodejs.org/en",
-  },
-  {
     name: "Tauri",
     role: "Multi-platform deployment",
     imageUrl: "/tauri.png",
