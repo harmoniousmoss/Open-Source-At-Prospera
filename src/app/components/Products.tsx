@@ -61,7 +61,7 @@ const product = [
     name: "TypeScript",
     role: "JavaScript with syntax for types",
     imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
-    link: "https://apexcharts.com/",
+    link: "https://www.typescriptlang.org/",
   },
 ];
 
