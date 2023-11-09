@@ -33,12 +33,6 @@ const product = [
     link: "https://www.postgresql.org/",
   },
   {
-    name: "Tauri",
-    role: "Multi-platform deployment",
-    imageUrl: "/tauri.png",
-    link: "https://tauri.app/",
-  },
-  {
     name: "SvelteKit",
     role: "Web development, streamlined",
     imageUrl: "https://www.cdnlogo.com/logos/s/6/svelte.svg",
@@ -49,12 +43,6 @@ const product = [
     role: "JavaScript runtime environment",
     imageUrl: "https://www.cdnlogo.com/logos/n/94/nodejs-icon.svg",
     link: "https://nodejs.org/en",
-  },
-  {
-    name: "Express",
-    role: "Flexible Node.js web framework",
-    imageUrl: "/expressjs_logo.png",
-    link: "https://expressjs.com/",
   },
   {
     name: "MongoDB",
