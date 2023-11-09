@@ -3,6 +3,12 @@ import Link from "next/link";
 
 const product = [
   {
+    name: "TypeScript",
+    role: "JavaScript with syntax for types",
+    imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
+    link: "https://www.typescriptlang.org/",
+  },
+  {
     name: "Next.js",
     role: "The React Framework for the Web",
     imageUrl: "https://www.cdnlogo.com/logos/n/80/next-js.svg",
@@ -37,6 +43,12 @@ const product = [
     role: "Web development, streamlined",
     imageUrl: "https://www.cdnlogo.com/logos/s/6/svelte.svg",
     link: "https://kit.svelte.dev/",
+  },
+  {
+    name: "Node.js",
+    role: "JavaScript runtime environment",
+    imageUrl: "https://www.cdnlogo.com/logos/n/94/nodejs-icon.svg",
+    link: "https://nodejs.org/en",
   },
   {
     name: "Express",
