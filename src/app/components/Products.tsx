@@ -34,15 +34,15 @@ const product = [
   },
   {
     name: "Tauri",
-    role: "Multi-platform deplyment",
+    role: "Multi-platform deployment",
     imageUrl: "/tauri.png",
-    link: "https://kit.svelte.dev/",
+    link: "https://tauri.app/",
   },
   {
     name: "Express",
     role: "minimal and flexible Node.js framework",
     imageUrl: "/expressjs_logo.png",
-    link: "https://kit.svelte.dev/",
+    link: "https://expressjs.com/",
   },
   {
     name: "MongoDB",
