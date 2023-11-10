@@ -51,6 +51,18 @@ const product = [
       "https://camo.githubusercontent.com/5ee5535a3f7e5ba870272261173bf12f9e08a14b0e926291b0a31b751de595e3/68747470733a2f2f617065786368617274732e636f6d2f6d656469612f617065786368617274732d6c6f676f2e706e67",
     link: "https://apexcharts.com/",
   },
+  {
+    name: "TypeScript",
+    role: "JavaScript with syntax for types",
+    imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
+    link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: "Tauri",
+    role: "Multi-platform deployment",
+    imageUrl: "/tauri.png",
+    link: "https://tauri.app/",
+  },
 ];
 
 export default function Products() {
