@@ -14,12 +14,7 @@ const product = [
     imageUrl: "https://www.cdnlogo.com/logos/t/58/tailwind-css.svg",
     link: "https://tailwindcss.com/",
   },
-  {
-    name: "Laravel",
-    role: "The PHP framework for web artisans",
-    imageUrl: "https://www.cdnlogo.com/logos/l/23/laravel.svg",
-    link: "https://laravel.com/",
-  },
+
   {
     name: "PostgreSQL",
     role: "Object-relational database system",
@@ -56,12 +51,6 @@ const product = [
     role: "JavaScript with syntax for types",
     imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
     link: "https://www.typescriptlang.org/",
-  },
-  {
-    name: "Tauri",
-    role: "Multi-platform deployment",
-    imageUrl: "/tauri.png",
-    link: "https://tauri.app/",
   },
 ];
 
