@@ -22,10 +22,10 @@ const product = [
     link: "https://www.postgresql.org/",
   },
   {
-    name: "SvelteKit",
-    role: "Web development, streamlined",
-    imageUrl: "https://www.cdnlogo.com/logos/s/6/svelte.svg",
-    link: "https://kit.svelte.dev/",
+    name: "PNPM",
+    role: "Fast, disk space efficient package manager",
+    imageUrl: "/pnpm.svg",
+    link: "https://pnpm.io/",
   },
   {
     name: "Express",
