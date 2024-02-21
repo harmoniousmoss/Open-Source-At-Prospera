@@ -22,35 +22,46 @@ const product = [
     link: "https://www.postgresql.org/",
   },
   {
-    name: "PNPM",
-    role: "Fast, disk space efficient package manager",
-    imageUrl: "/pnpm.svg",
-    link: "https://pnpm.io/",
-  },
-  {
-    name: "Express",
-    role: "minimal and flexible Node.js framework",
-    imageUrl: "/expressjs_logo.png",
-    link: "https://expressjs.com/",
-  },
-  {
     name: "MongoDB",
     role: "Document database",
     imageUrl: "https://www.cdnlogo.com/logos/m/30/mongodb-icon.svg",
     link: "https://www.mongodb.com/",
   },
   {
-    name: "ApexCharts",
-    role: "A modern JavaScript charting library",
-    imageUrl:
-      "https://camo.githubusercontent.com/5ee5535a3f7e5ba870272261173bf12f9e08a14b0e926291b0a31b751de595e3/68747470733a2f2f617065786368617274732e636f6d2f6d656469612f617065786368617274732d6c6f676f2e706e67",
-    link: "https://apexcharts.com/",
+    name: "Koa.js",
+    role: "Next generation web framework for Node.js",
+    imageUrl: "/koajs.png",
+    link: "https://koajs.com/",
+  },
+  {
+    name: "Fiber",
+    role: "Go web framework built on top of Fasthttp",
+    imageUrl: "/logo_fiber.svg",
+    link: "https://gofiber.io/",
   },
   {
     name: "TypeScript",
     role: "JavaScript with syntax for types",
     imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
     link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: "Redis",
+    role: "In-memory data structure store",
+    imageUrl: "https://www.cdnlogo.com/logos/r/3/redis.svg",
+    link: "https://redis.io/",
+  },
+  {
+    name: "ApexCharts",
+    role: "A modern JavaScript charting library",
+    imageUrl: "/apexchart.png",
+    link: "https://apexcharts.com/",
+  },
+  {
+    name: "PNPM",
+    role: "Fast, disk space efficient package manager",
+    imageUrl: "/pnpm.svg",
+    link: "https://pnpm.io/",
   },
 ];
 
