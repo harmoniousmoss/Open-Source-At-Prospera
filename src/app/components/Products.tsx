@@ -97,7 +97,7 @@ export default function Products() {
                 <Link href={product.link}>
                   <div className="flex items-center cursor-pointer hover:text-greenshade20">
                     <Image
-                      className="mr-5 border border-gray-200 rounded-md p-2 flex items-center justify-center w-16 h-16 bg-gray-50"
+                      className="mr-5 border border-gray-200 rounded-md p-2 flex items-center justify-center w-16 h-16 bg-gray-50 hover:shadow-2xl hover:saturate-200"
                       src={product.imageUrl}
                       alt={product.name} // Added a descriptive alt tag
                       width={64}
