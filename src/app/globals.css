@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  .no-tailwindcss-base h1,
+  .no-tailwindcss-base h2,
+  .no-tailwindcss-base h3,
+  .no-tailwindcss-base h4,
+  .no-tailwindcss-base h5,
+  .no-tailwindcss-base h6,
+  .no-tailwindcss-base p {
+    font-size: revert;
+    font-weight: revert;
+    margin: revert;
+    padding: revert;
+  }
+
+  .no-tailwindcss-base ol,
+  .no-tailwindcss-base ul {
+    list-style: revert;
+    margin: revert;
+    padding: revert;
+  }
+
+  /* Added rules for anchor links */
+  .no-tailwindcss-base a {
+    color: revert;
+    text-decoration: revert;
+    font-weight: revert;
+    cursor: revert;
+  }
+}

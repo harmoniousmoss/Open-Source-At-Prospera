@@ -13,7 +13,7 @@ export default function Header() {
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
-          className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8"
+          className="flex items-center lg:justify-between lg:px-24 xl:px-36 pt-6 px-6 justify-center"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
@@ -47,7 +47,7 @@ export default function Header() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Prospera Logo</span>
                 <Image
                   className="w-auto h-14"
@@ -96,9 +96,9 @@ export default function Header() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-4xl pt-12 sm:pt-28 lg:pt-36">
+        <div className="mx-auto max-w-4xl lg:pt-24 pt-16">
           <div className="text-center">
-            <h1 className="text-6xl font-bold text-gray-900 sm:text-7xl">
+            <h1 className="text-5xl font-bold text-gray-900 lg:text-6xl">
               The way forward is Open
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-700">

@@ -28,10 +28,10 @@ const product = [
     link: "https://www.mongodb.com/",
   },
   {
-    name: "Koa.js",
-    role: "Next generation web framework for Node.js",
-    imageUrl: "/koajs.png",
-    link: "https://koajs.com/",
+    name: "Fastify",
+    role: "Fast and low overhead web framework, for Node.js",
+    imageUrl: "/fastify-1000px-square-01.png",
+    link: "https://fastify.dev/",
   },
   {
     name: "Fiber",
@@ -63,46 +63,60 @@ const product = [
     imageUrl: "/pnpm.svg",
     link: "https://pnpm.io/",
   },
+  {
+    name: "Matomo",
+    role: "All-in-one web analytics platform",
+    imageUrl: "/matomo.png",
+    link: "https://matomo.org/",
+  },
+  {
+    name: "Git",
+    role: "Version Control System",
+    imageUrl: "/git.png",
+    link: "https://git-scm.com/",
+  },
 ];
 
 export default function Products() {
   return (
-    <div className="bg-white py-16 sm:py-24">
-      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
-        <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-cyan-500 sm:text-4xl">
+    <div className="bg-white">
+      <div className="xl:px-36 px-6 lg:px-24">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-blueshade20 mt-16 lg:text-4xl">
             Projects we use
           </h2>
-          <p className="mt-3 text-lg leading-8 text-gray-700">
-            We proudly uses open source technologies like these to run our
+          <p className="text-lg text-gray-700 mt-2">
+            We proudly use open source technologies like these to run our
             digital products.
           </p>
         </div>
-        <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
-          {product.map((product) => (
-            <li key={product.name}>
-              <Link href={product.link}>
-                <div className="flex items-center gap-x-6 cursor-pointer hover:text-cyan-400">
-                  <Image
-                    className="h-16 w-16"
-                    src={product.imageUrl}
-                    alt={product.name} // Added a descriptive alt tag
-                    width={300}
-                    height={300}
-                  />
-                  <div>
-                    <h3 className="text-base font-semibold leading-7 tracking-tight text-cyan-500">
-                      {product.name}
-                    </h3>
-                    <p className="text-sm font-semibold leading-6 text-gray-900">
-                      {product.role}
-                    </p>
+        <div className="mt-12">
+          <ul className="grid lg:grid-cols-3 gap-x-4 gap-y-8 grid-cols-1 xl:grid-cols-4">
+            {product.map((product) => (
+              <li key={product.name}>
+                <Link href={product.link}>
+                  <div className="flex items-center cursor-pointer hover:text-greenshade20">
+                    <Image
+                      className="mr-5 border border-gray-200 rounded-md p-2 flex items-center justify-center w-16 h-16 bg-gray-50"
+                      src={product.imageUrl}
+                      alt={product.name} // Added a descriptive alt tag
+                      width={64}
+                      height={64}
+                    />
+                    <div>
+                      <h3 className="text-base font-semibold text-blueshade20">
+                        {product.name}
+                      </h3>
+                      <p className="text-sm font-semibold leading-6 text-gray-900">
+                        {product.role}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
