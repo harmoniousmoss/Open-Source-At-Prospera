@@ -28,10 +28,10 @@ const product = [
     link: "https://www.mongodb.com/",
   },
   {
-    name: "Fastify",
-    role: "Fast and low overhead web framework, for Node.js",
-    imageUrl: "/fastify-1000px-square-01.png",
-    link: "https://fastify.dev/",
+    name: "Koa.js",
+    role: "Next generation web framework for Node.js",
+    imageUrl: "/koajs.png",
+    link: "https://koajs.com/",
   },
   {
     name: "Fiber",
@@ -91,7 +91,7 @@ export default function Products() {
           </p>
         </div>
         <div className="mt-12">
-          <ul className="grid lg:grid-cols-3 gap-x-4 gap-y-8 grid-cols-1 xl:grid-cols-4">
+          <ul className="grid lg:grid-cols-3 gap-x-4 gap-y-8 grid-cols-1">
             {product.map((product) => (
               <li key={product.name}>
                 <Link href={product.link}>
