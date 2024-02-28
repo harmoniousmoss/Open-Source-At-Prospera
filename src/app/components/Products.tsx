@@ -28,10 +28,10 @@ const product = [
     link: "https://www.mongodb.com/",
   },
   {
-    name: "Koa.js",
-    role: "Next generation web framework for Node.js",
-    imageUrl: "/koajs.png",
-    link: "https://koajs.com/",
+    name: "Fastify",
+    role: "Fast and low overhead web framework for Node.js",
+    imageUrl: "/fastify-1000px-square-01.png",
+    link: "https://www.fastify.io/",
   },
   {
     name: "Fiber",
