@@ -16,23 +16,12 @@ const product = [
   },
 
   {
-    name: "PostgreSQL",
-    role: "Object-relational database system",
-    imageUrl: "https://www.cdnlogo.com/logos/p/93/postgresql.svg",
-    link: "https://www.postgresql.org/",
-  },
-  {
     name: "MongoDB",
     role: "Document database",
     imageUrl: "https://www.cdnlogo.com/logos/m/30/mongodb-icon.svg",
     link: "https://www.mongodb.com/",
   },
-  {
-    name: "Fastify",
-    role: "Fast and low overhead web framework for Node.js",
-    imageUrl: "/fastify-1000px-square-01.png",
-    link: "https://www.fastify.io/",
-  },
+
   {
     name: "Fiber",
     role: "Go web framework built on top of Fasthttp",
@@ -45,12 +34,7 @@ const product = [
     imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
     link: "https://www.typescriptlang.org/",
   },
-  {
-    name: "Redis",
-    role: "In-memory data structure store",
-    imageUrl: "https://www.cdnlogo.com/logos/r/3/redis.svg",
-    link: "https://redis.io/",
-  },
+
   {
     name: "ApexCharts",
     role: "A modern JavaScript charting library",
