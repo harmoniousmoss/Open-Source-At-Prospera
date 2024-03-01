@@ -13,10 +13,10 @@ export default function Footer() {
               © Copyright 2023 Prospera. All Rights Reserved
             </p>
             <p className="text-sm leading-5 text-gray-700 mt-2 lg:mt-0">
-              Made with 💗 with{" "}
+              Open source at
               <Link href="https://prosperadev.net">
-                <span className="text-blueshade20 underline font-medium">
-                  Open Source
+                <span className="text-blueshade20 underline font-medium ml-1">
+                  Prospera
                 </span>
               </Link>
             </p>
