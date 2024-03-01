@@ -23,11 +23,19 @@ const product = [
   },
 
   {
+    name: "Express.js",
+    role: "Minimal and flexible Node.js web framework",
+    imageUrl: "/express.png",
+    link: "https://expressjs.com/",
+  },
+
+  {
     name: "Fiber",
     role: "Go web framework built on top of Fasthttp",
     imageUrl: "/logo_fiber.svg",
     link: "https://gofiber.io/",
   },
+
   {
     name: "TypeScript",
     role: "JavaScript with syntax for types",
@@ -58,6 +66,18 @@ const product = [
     role: "Version Control System",
     imageUrl: "/git.png",
     link: "https://git-scm.com/",
+  },
+  {
+    name: "Redis",
+    role: "In-memory data structure store",
+    imageUrl: "https://www.cdnlogo.com/logos/r/3/redis.svg",
+    link: "https://redis.io/",
+  },
+  {
+    name: "PostgreSQL",
+    role: "Open Source Relational Database",
+    imageUrl: "https://www.cdnlogo.com/logos/p/93/postgresql.svg",
+    link: "https://www.postgresql.org/",
   },
 ];
 
