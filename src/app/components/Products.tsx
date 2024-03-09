@@ -23,13 +23,6 @@ const product = [
   },
 
   {
-    name: "Express.js",
-    role: "Minimal and flexible Node.js web framework",
-    imageUrl: "/express.png",
-    link: "https://expressjs.com/",
-  },
-
-  {
     name: "Fiber",
     role: "Go web framework built on top of Fasthttp",
     imageUrl: "/logo_fiber.svg",
@@ -49,24 +42,14 @@ const product = [
     imageUrl: "/apexchart.png",
     link: "https://apexcharts.com/",
   },
-  {
-    name: "PNPM",
-    role: "Fast, disk space efficient package manager",
-    imageUrl: "/pnpm.svg",
-    link: "https://pnpm.io/",
-  },
+
   {
     name: "Matomo",
     role: "All-in-one web analytics platform",
     imageUrl: "/matomo.png",
     link: "https://matomo.org/",
   },
-  {
-    name: "Git",
-    role: "Version Control System",
-    imageUrl: "/git.png",
-    link: "https://git-scm.com/",
-  },
+
   {
     name: "Redis",
     role: "In-memory data structure store",
