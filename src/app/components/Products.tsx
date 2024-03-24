@@ -30,6 +30,13 @@ const product = [
   },
 
   {
+    name: "Adonis.js",
+    role: "TypeScript-first web framework",
+    imageUrl: "/adonis-seeklogo.svg",
+    link: "https://adonisjs.com/",
+  },
+
+  {
     name: "TypeScript",
     role: "JavaScript with syntax for types",
     imageUrl: "https://www.cdnlogo.com/logos/t/96/typescript.svg",
@@ -50,12 +57,6 @@ const product = [
     link: "https://matomo.org/",
   },
 
-  {
-    name: "Redis",
-    role: "In-memory data structure store",
-    imageUrl: "https://www.cdnlogo.com/logos/r/3/redis.svg",
-    link: "https://redis.io/",
-  },
   {
     name: "PostgreSQL",
     role: "Open Source Relational Database",
